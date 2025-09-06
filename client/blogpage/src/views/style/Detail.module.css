@@ -1,0 +1,66 @@
+.detail-wrap {
+  /* width: 900px;  Bootstrap col로 대체 */
+  margin: 40px auto 0;
+}
+
+.detail {
+  /* width: 900px;  → 그리드 폭에 맞춰 자동 */
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 15px;
+  font-size: 20px;
+  /* fs-5 쓰면 이 줄은 생략 가능 */
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.delete {
+  margin-left: 10px;
+}
+
+/* (선택) 클릭 느낌 보강 */
+.btn-wrap span {
+  cursor: pointer;
+}
+
+.comments-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+
+.comment-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* 세로 중앙 */
+  border-bottom: 1px solid #d3d3d3;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-anchor {
+  position: relative;
+}
+.comment-toggle{
+  color: rgb(206, 206, 206);
+}
+.comment-toggle:hover{
+  color: rgb(51, 51, 51);
+}
+.comment-menu {
+  position: absolute;
+  left: 20px;
+  top: 2px;
+  z-index: 1000;
+  white-space: nowrap;
+}

@@ -1,0 +1,13 @@
+body{
+  margin: 0;  
+  font-family: '에스코어 드림', sans-serif;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}

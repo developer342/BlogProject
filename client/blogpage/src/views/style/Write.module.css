@@ -1,0 +1,40 @@
+.write-wrap {
+  /* width: 900px;  Bootstrap col로 대체 */
+  margin: 40px auto 0;
+}
+
+/* input */
+.title {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500px;
+  border: none;
+}
+
+/* textarea */
+.text {
+  display: block;
+  resize: none;
+
+  width: 100%;
+  height: 300px;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 15px;
+  font-size: 21px;
+}
+
+
+
+/* 버튼 래퍼 (클래스명 통일: btn-wrap) */
+.btn-wrap {
+  display: flex;
+  margin-top: 10px;
+}
+
+
